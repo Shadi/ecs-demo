@@ -1,0 +1,18 @@
+
+{
+  "containerDefinitions": [
+    {
+      "name": "ecsDemo",
+      "image": "shadi/ecs-demo",
+      "cpu": 200,
+      "memory": 300,
+      "portMappings": [
+        {
+          "containerPort": 8080,
+          "hostPort": 8080
+        }
+      ],
+      "essential": true
+    }
+  ]
+}
